@@ -5,6 +5,10 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
+        appBar: AppBar(
+          title: Text("BINGEWORTHY TV SHOWS"),
+          centerTitle: true,
+        ),
         body: Container(color: Colors.teal,
           alignment: Alignment.center,
           child: Text("BINGEFLIX", 
